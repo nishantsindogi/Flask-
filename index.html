@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        body {
+            background-image: url('/static/1.jpg');
+            background-size: cover;
+            text-align: center;
+            font-family: Arial, sans-serif; /* Neat-looking font */
+            color: black; /* Set font color to black */
+        }
+
+        .heading-container {
+            background-color: rgba(255, 255, 255, 0.7); /* Translucent white background */
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            width: 50%; /* Set container width */
+        }
+
+        .links-container {
+            background-color: rgba(255, 255, 255, 0.7); /* Translucent white background */
+            border-radius: 10px;
+            padding: 20px;
+            margin: 100px auto; /* Increased margin to move it down */
+            width: 50%; /* Set container width */
+        }
+
+        a:link, a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 70px; /* Fixed width for all buttons */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 4px; /* Rounded corners */
+            margin: 20px; /* Add some space between links */
+        }
+
+        a:hover, a:active {
+            background-color: red;
+        }
+
+        h1 {
+            font-size: 48px; /* Increased heading size */
+        }
+    </style>
+</head>
+<body>
+
+<div class="blurry-background"></div>
+
+<div class="heading-container">
+    <h1>Sneaker Retail System</h1>
+</div>
+
+<div class="links-container">
+    <a href="/add_student">Add Sneaker</a>
+    <a href="/delete_student">Delete Sneaker</a>
+    <a href="/student_info">View Sneaker Details</a>
+</div>
+
+</body>
+</html>
